@@ -1,5 +1,8 @@
 import random
 
+# List of decks
+decks = ["Golden Dawn", "Rider-Waite-Smith", "Book of Thoth"]
+
 # List of cards
 golden_dawn = ["The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers",
                "The Chariot", "Justice", "The Hermit", "The Wheel of Fortune", "Strength", "The Hanged Man",
