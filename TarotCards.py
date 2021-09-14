@@ -20,11 +20,11 @@ card2 = random.randint(0, 21)
 card3 = random.randint(0, 21)
 
 # If there are duplicate cards
-if card1 == card2 or card1 == card3:
+while card1 == card2 or card1 == card3:
     card1 = random.randint(0, 21)
-if card2 == card1 or card2 == card3:
+while card2 == card1 or card2 == card3:
     card2 = random.randint(0, 21)
-if card3 == card1 or card3 == card2:
+while card3 == card1 or card3 == card2:
     card3 = random.randint(0, 21)
 
 # Reversed or upright
